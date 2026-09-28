@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Privacy Policy · Byhyli</title>
+<style>
+  :root{
+    --bg:#f6f3ee; --paper:#fffdf9; --ink:#1c1917; --muted:#57534e;
+    --line:#e7e0d6; --accent:#0f766e; --soft:#ccfbf1; --chip:#fff7ed;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141110; --paper:#1f1b18; --ink:#f5f1ec; --muted:#a8a09a;
+           --line:#322c28; --accent:#2dd4bf; --soft:#123f3a; --chip:#2a211a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 72px}
+  h1{font-size:28px;line-height:1.25;margin:0 0 6px;letter-spacing:.01em}
+  .meta{color:var(--muted);font-size:13px;margin:0}
+  nav{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:20px 0 24px}
+  nav a{color:var(--accent);text-decoration:none;font-size:14px;margin-right:14px;display:inline-block}
+  nav a:hover{text-decoration:underline}
+  section{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:16px}
+  h2{font-size:18px;margin:0 0 10px;padding-bottom:7px;border-bottom:2px solid var(--soft)}
+  h3{font-size:15px;margin:16px 0 6px}
+  p{margin:0 0 11px}
+  ul{margin:0 0 11px;padding-left:20px}
+  li{margin-bottom:5px}
+  .lead{color:var(--muted);font-size:15px}
+  .key{background:var(--chip);border-left:4px solid var(--accent);padding:11px 14px;border-radius:0 8px 8px 0;margin:14px 0;font-size:15px}
+  table{width:100%;border-collapse:collapse;font-size:14.5px;margin:10px 0 14px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:var(--soft);font-weight:650}
+  footer{color:var(--muted);font-size:13px;text-align:center;margin-top:26px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Byhyli · Version 1.0 · Effective 28 September 2026</p>
+  </header>
+
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./terms.html">Terms of Use</a>
+    <a href="./privacy.html">Privacy Policy</a>
+    <a href="./support.html">Support</a>
+  </nav>
+
+  <section>
+    <h2>The short version</h2>
+    <div class="key">
+      Byhyli works entirely on your device. There is no account and no sign-in. We do not operate a server that receives your photos or your memes, we do not track you across other apps, and we do not send you notifications.
+    </div>
+    <p>This policy explains exactly what stays on your device, which permissions Byhyli asks for, and how you delete everything. It describes the Byhyli app as it actually behaves — not a generic template.</p>
+  </section>
+
+  <section>
+    <h2>1. What we collect</h2>
+    <p><strong>Nothing is sent to us.</strong> Byhyli has no backend service. We do not collect, transmit, sell or share your personal data, because none of it ever leaves your device.</p>
+    <p>There is no account system, no email sign-up, no analytics service, no advertising SDK, and no crash-reporting SDK in the app. We do not read the advertising identifier (IDFA).</p>
+  </section>
+
+  <section>
+    <h2>2. What is stored on your device</h2>
+    <table>
+      <tr><th>What</th><th>Where</th><th>Why</th></tr>
+      <tr>
+        <td>Drafts — template choice, caption text, drawing strokes, filter, size, and references to your media</td>
+        <td>App database, inside the app's private container</td>
+        <td>So an unfinished meme can be resumed</td>
+      </tr>
+      <tr>
+        <td>A working copy of the photo you take or pick, and the result of a background cut</td>
+        <td>App's private file storage</td>
+        <td>So Byhyli can edit without touching your original photo</td>
+      </tr>
+      <tr>
+        <td>Finished memes (PNG files)</td>
+        <td>App's private file storage</td>
+        <td>So you can revisit, save or share them again</td>
+      </tr>
+      <tr>
+        <td>Your credit balance and a local ledger of purchases and spends</td>
+        <td>App database, inside the app's private container</td>
+        <td>So the balance is accurate and a purchase is never credited twice</td>
+      </tr>
+      <tr>
+        <td>Lightweight preferences, including whether the two one-time system prompts have already been shown</td>
+        <td>App's local preferences</td>
+        <td>So the prompts appear once and only once</td>
+      </tr>
+    </table>
+    <p>None of this is readable by other apps, and none of it is backed up to us.</p>
+  </section>
+
+  <section>
+    <h2>3. Permissions Byhyli asks for</h2>
+
+    <h3>Camera — used</h3>
+    <p>Asked for only when you tap <strong>Take Photo</strong> on the meme canvas. The photo you take becomes the material for that meme. It stays on your device.</p>
+
+    <h3>Photos (read) — used</h3>
+    <p>Asked for only when you tap <strong>Choose Photo</strong>, and requested for the minimum scope needed. Byhyli reads the single photo you select and copies it into its own private storage. Your original photo is never modified.</p>
+
+    <h3>Photos (add) — used</h3>
+    <p>Asked for only when you tap <strong>Save to Photos</strong> on a finished meme. Byhyli adds the finished PNG to your photo library. It does not read your library for this.</p>
+
+    <h3>Microphone and Speech Recognition — used</h3>
+    <p>Asked for only when you tap <strong>Speak Caption</strong>. You speak, and the words are placed into the caption field you are editing. Where your device supports it, recognition runs on the device; the audio is used only to produce that text and is never uploaded or stored. If recognition is unavailable, Byhyli simply falls back to typing.</p>
+
+    <h3>Tracking (App Tracking Transparency) — shown once, not used</h3>
+    <div class="key">
+      Byhyli shows the App Tracking Transparency prompt once, the first time you reach the Studio, because it is required. Byhyli does not track you across other apps or websites, does not read the advertising identifier, and does not use any attribution or advertising SDK. Whether you allow or decline, the app behaves in exactly the same way.
+    </div>
+
+    <h3>Notifications — shown once, not used</h3>
+    <div class="key">
+      Byhyli shows the notification permission prompt once, on that same first visit. Byhyli does not register for remote notifications and does not send you any notifications — none at all. Whether you allow or decline, the app behaves in exactly the same way. There is no notification toggle inside the app, because there is nothing to toggle.
+    </div>
+  </section>
+
+  <section>
+    <h2>4. Purchases</h2>
+    <p>Creation Credits are consumable in-app purchases. <strong>Apple</strong> processes the payment — Byhyli never sees your name, card details or billing address.</p>
+    <p>What Byhyli receives from StoreKit is the transaction itself: the transaction identifier, the product identifier, and whether Apple verified it. Byhyli stores that plus the resulting balance locally, so the same transaction can never credit you twice and so a purchase can survive an interrupted app launch.</p>
+    <p>Credits exist only on this device. They are not tied to an account, are not stored on any server, and cannot be restored after you reinstall the app or clear its data.</p>
+  </section>
+
+  <section>
+    <h2>5. Sharing</h2>
+    <p>When you tap <strong>Share</strong>, iOS shows the standard share sheet and you choose the destination. Byhyli hands the finished image file to whichever app or service you pick. What happens after that is governed by that service's own privacy policy, not by this one.</p>
+  </section>
+
+  <section>
+    <h2>6. Children</h2>
+    <p>Byhyli is not directed at children under 13. Because the app has no account, no messaging and no server collection, it does not knowingly collect personal information from anyone, including children.</p>
+  </section>
+
+  <section>
+    <h2>7. Keeping and deleting your data</h2>
+    <ul>
+      <li>Data stays on your device until you delete it. There is no retention period on our side, because there is no our side.</li>
+      <li><strong>Clear All Data</strong> in Settings removes every draft, every finished meme, every media file Byhyli copied, the local ledger and your remaining credits, and returns the app to its first screen. It asks you to confirm twice.</li>
+      <li>Deleting a single meme removes that image and its index. Captions, photos and credits already used in it are not restored.</li>
+      <li>Deleting the app removes everything in its private container, including any remaining credits.</li>
+      <li>Refunds and purchase reversals are handled by Apple. If Apple reverses a purchase, Byhyli removes the unused credits from that purchase. Memes you already created and saved are never deleted.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Your rights</h2>
+    <p>Because Byhyli collects nothing and transmits nothing, there is no personal data for us to export, correct or erase on your behalf. The controls in <strong>Settings → Clear All Data</strong> give you the same result directly, immediately, on your own device.</p>
+  </section>
+
+  <section>
+    <h2>9. Changes to this policy</h2>
+    <p>If the app's behaviour changes in a way that affects this policy — for example if a future version ever sends data off the device — we will update this page and change the version and effective date at the top before that version ships.</p>
+  </section>
+
+  <section>
+    <h2>10. Contact</h2>
+    <p>Questions about privacy in Byhyli? Write to <a href="mailto:support@byhyli.app">support@byhyli.app</a>.</p>
+  </section>
+
+  <footer>Byhyli · <a href="./terms.html">Terms of Use</a> · <a href="./support.html">Support</a></footer>
+</div>
+</body>
+</html>
